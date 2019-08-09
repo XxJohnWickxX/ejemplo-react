@@ -7,7 +7,8 @@ import Artistlist from './artistlist';
 class Home extends Component { 
 
     state = {
-        artists:[]
+        artists:[],
+        name:[]
     }
 
     componentWillMount() {
